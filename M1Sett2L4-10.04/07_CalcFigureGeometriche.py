@@ -22,7 +22,7 @@ unita = input("Quale unità di misura vuoi usare? (es. mm, cm, m:)  ")
 
 # Adesso organizziamo i vari casi anche di Key-sensitive in cui l'utente possa rispondere e le condizioni.
 
-if input_utente == "Quadrato" or input_utente == "1" or input_utente == "1 - Quadrato" "or 1 - quadrato" or input_utente == "quadrato":
+if input_utente == "Quadrato" or input_utente == "1" or input_utente == "1 - Quadrato" or "1 - quadrato" or input_utente == "quadrato":
     lato = input("Misura del lato che vuoi calcolare?\n ") 
     perimetro = perimetroQuadrato(int(lato))
     print(f"Il perimetro del tuo quadrato è: {perimetro} {unita}")
